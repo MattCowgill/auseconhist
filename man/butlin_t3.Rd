@@ -18,33 +18,15 @@ A tibble with 8 variables:
   \item{terms_of_trade}{Terms of trade; index, 1966-67 = 100.}
 
 }
-
-A tibble with x variables:
-\describe{
-  \item{year}{Financial year ended}
-  \item{rgdp_per_cap}{Real GDP per capita. RGDP in financial year divided by total population as at December in the fin year.}
-  \item{awe}{Average weekly earnings, all employeed, dollars.}
-  \item{gdp_def}{GDP deflator, 2010 = 100}
-  \item{cpi}{Consumer price index, 1990  = 100}
-  \item{real_prod_wage}{Real product wage (AWE deflated by GDP deflator)}
-  \item{house_afford}{Housing affordability, median house prices (see \code{?butlin_t6}) divided by average weekly earnings.}
-}
 }
 \source{
 https://doi.org/10.1017/CHO9781107445222.033. See PDF for detailed notes and sources.
-
-https://doi.org/10.1017/CHO9781107445222.033. See PDF for detailed notes and sources.
 }
 \usage{
-butlin_t3
-
 butlin_t3
 }
 \description{
 Table A3 of Butlin, Dixon and Lloyd 2014
 Exports, imports, openness and current account deficit, 1822-2010
-
-Table A7 of Butlin, Dixon and Lloyd 2014
-Living standards, wages, prices and housing affordability, 1801-2010
 }
 \keyword{datasets}

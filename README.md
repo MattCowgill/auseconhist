@@ -9,6 +9,8 @@
 status](https://github.com/MattCowgill/auseconhist/workflows/R-CMD-check/badge.svg)](https://github.com/MattCowgill/auseconhist/actions)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Travis build
+status](https://travis-ci.com/MattCowgill/auseconhist.svg?branch=master)](https://travis-ci.com/MattCowgill/auseconhist)
 <!-- badges: end -->
 
 This R package provides convenient access to historical economic data

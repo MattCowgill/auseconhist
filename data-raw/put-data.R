@@ -10,10 +10,14 @@ butlin_filenames <- raw_csv_filenames[grepl("butlin_", raw_csv_filenames)]
 butlin <- purrr::map(paste0("data-raw/", butlin_filenames),
                           readr::read_csv)
 
+butlin <- setNames(butlin, tools::file_path_sans_ext(butlin_filenames))
+
+butlin <- purrr::map(.x = butlin,
+           ~mutate_if(.x, is.character, str_replace_all, pattern = "–", replacement = "-")
+           )
+
 butlin <- purrr::map(butlin,
            ~mutate_if(.x, is.character, parse_number))
-
-butlin <- setNames(butlin, tools::file_path_sans_ext(butlin_filenames))
 
 list2env(butlin, .GlobalEnv)
 

@@ -9,7 +9,7 @@ From Butlin}
 An object of class \code{spec_tbl_df} (inherits from \code{tbl_df}, \code{tbl}, \code{data.frame}) with 616 rows and 10 columns.
 }
 \source{
-Butlin
+Butlin 1977 'A Preliminary Annual Database 1900/01 to 1973/74'
 }
 \usage{
 lr_lfs
